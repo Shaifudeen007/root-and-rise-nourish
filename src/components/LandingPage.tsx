@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Leaf, Heart, Users, Mail, Instagram, Facebook, Twitter } from "lucide-react";
+import Header from "@/components/Header";
+import ContactForm from "@/components/ContactForm";
 import heroImage from "@/assets/hero-organic-ingredients.jpg";
 import quinoaBowlImage from "@/assets/quinoa-kale-bowl.jpg";
 import tacoImage from "@/assets/sweet-potato-tacos.jpg";
@@ -40,9 +42,11 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen">
+      <Header />
+      
       {/* Hero Section */}
-      <section 
-        className="relative h-screen flex items-center justify-center text-center"
+      <section
+        className="relative h-screen flex items-center justify-center text-center pt-16"
         style={{
           backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${heroImage})`,
           backgroundSize: 'cover',
@@ -174,6 +178,9 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Contact Form */}
+      <ContactForm />
 
       {/* Footer */}
       <footer className="bg-foreground text-background py-12">
