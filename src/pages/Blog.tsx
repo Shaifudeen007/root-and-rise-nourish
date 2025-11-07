@@ -64,10 +64,110 @@ const Blog = () => {
       category: "Gut Health",
       readTime: "6 min read",
       featured: false
+    },
+    {
+      id: 7,
+      title: "Meal Prep Mastery: Save Time While Eating Healthy",
+      excerpt: "Transform your week with strategic meal preparation. Learn time-saving techniques, storage tips, and batch-cooking strategies that make healthy eating effortless.",
+      author: "Sarah Chen",
+      date: "2023-12-10",
+      category: "Meal Planning",
+      readTime: "9 min read",
+      featured: false
+    },
+    {
+      id: 8,
+      title: "Sustainable Eating: How Your Food Choices Impact the Planet",
+      excerpt: "Understand the environmental impact of your diet and learn how to make more sustainable food choices. Small changes can create a big difference for our planet's future.",
+      author: "David Martinez",
+      date: "2023-12-05",
+      category: "Sustainability",
+      readTime: "7 min read",
+      featured: false
+    },
+    {
+      id: 9,
+      title: "Ancient Grains Rediscovered: Nutritional Powerhouses",
+      excerpt: "From quinoa to amaranth, explore the nutritional benefits of ancient grains. Learn how these time-tested foods can enhance your modern diet with superior nutrition.",
+      author: "Emma Thompson",
+      date: "2023-11-28",
+      category: "Nutrition",
+      readTime: "5 min read",
+      featured: false
+    },
+    {
+      id: 10,
+      title: "Hydration and Health: Beyond Just Drinking Water",
+      excerpt: "Discover the crucial role of proper hydration in overall wellness. Learn about water-rich foods, herbal teas, and strategies to stay optimally hydrated throughout the day.",
+      author: "Marcus Rodriguez",
+      date: "2023-11-22",
+      category: "Health Tips",
+      readTime: "6 min read",
+      featured: false
+    },
+    {
+      id: 11,
+      title: "Anti-Inflammatory Foods: Natural Healing Through Nutrition",
+      excerpt: "Combat chronic inflammation with the power of food. Explore anti-inflammatory ingredients and recipes that support your body's natural healing processes.",
+      author: "Dr. Lisa Park",
+      date: "2023-11-15",
+      category: "Healing Foods",
+      readTime: "8 min read",
+      featured: false
+    },
+    {
+      id: 12,
+      title: "Green Smoothies 101: Nutrient-Dense Drinks Made Simple",
+      excerpt: "Master the art of creating delicious, balanced green smoothies. Learn the perfect ratios, flavor combinations, and ingredient prep for maximum nutrition and taste.",
+      author: "Sarah Chen",
+      date: "2023-11-08",
+      category: "Recipes",
+      readTime: "5 min read",
+      featured: false
+    },
+    {
+      id: 13,
+      title: "Food Storage Secrets: Keep Your Produce Fresh Longer",
+      excerpt: "Stop wasting money on spoiled produce. Learn professional storage techniques that extend the life of your fruits, vegetables, and herbs while maintaining peak nutrition.",
+      author: "David Martinez",
+      date: "2023-11-01",
+      category: "Kitchen Tips",
+      readTime: "6 min read",
+      featured: false
+    },
+    {
+      id: 14,
+      title: "Intermittent Fasting: A Comprehensive Beginner's Guide",
+      excerpt: "Explore the science and practice of intermittent fasting. Understand different approaches, potential benefits, and how to determine if it's right for your lifestyle.",
+      author: "Dr. Lisa Park",
+      date: "2023-10-25",
+      category: "Wellness",
+      readTime: "10 min read",
+      featured: false
+    },
+    {
+      id: 15,
+      title: "Immune-Boosting Foods for Every Season",
+      excerpt: "Strengthen your immune system naturally with targeted nutrition. Discover the vitamins, minerals, and phytonutrients that support robust immune function year-round.",
+      author: "Marcus Rodriguez",
+      date: "2023-10-18",
+      category: "Health Tips",
+      readTime: "7 min read",
+      featured: false
+    },
+    {
+      id: 16,
+      title: "Clean Eating Basics: Getting Started on Your Journey",
+      excerpt: "Simplify your approach to healthy eating with clean eating principles. Learn to identify whole foods, read labels effectively, and make confident choices at the grocery store.",
+      author: "Emma Thompson",
+      date: "2023-10-10",
+      category: "Nutrition",
+      readTime: "6 min read",
+      featured: false
     }
   ];
 
-  const categories = ["All", "Nutrition", "Health Tips", "Seasonal", "Meal Planning", "Wellness", "Gut Health"];
+  const categories = ["All", "Nutrition", "Health Tips", "Seasonal", "Meal Planning", "Wellness", "Gut Health", "Sustainability", "Healing Foods", "Recipes", "Kitchen Tips"];
 
   return (
     <div className="min-h-screen">
