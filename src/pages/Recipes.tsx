@@ -82,6 +82,72 @@ const Recipes = () => {
       servings: "4",
       difficulty: "Medium",
       tags: ["Gluten-Free", "Vegetarian", "Comfort"]
+    },
+    {
+      id: 7,
+      title: "Keerai Masiyal (Spinach Mash)",
+      description: "A wholesome iron-rich Tamil dish of mashed spinach with garlic, tempered with mustard and urad dal. Perfect with rice and ghee.",
+      image: quinoaBowlImage,
+      category: "Lunch",
+      prepTime: "20 min",
+      servings: "3",
+      difficulty: "Easy",
+      tags: ["Traditional", "Iron-Rich", "Vegetarian", "Tamil"]
+    },
+    {
+      id: 8,
+      title: "Kambu Kanji (Pearl Millet Porridge)",
+      description: "Traditional high-protein, high-fiber breakfast porridge made with pearl millet flour and buttermilk. Excellent for diabetics.",
+      image: smoothieImage,
+      category: "Breakfast",
+      prepTime: "15 min",
+      servings: "2",
+      difficulty: "Easy",
+      tags: ["Traditional", "High-Fiber", "Weight-Loss", "Tamil"]
+    },
+    {
+      id: 9,
+      title: "Ragi Kali / Ragi Mudde",
+      description: "A powerhouse of calcium and energy made from finger millet flour. Strengthens bones and great for all ages.",
+      image: quinoaBowlImage,
+      category: "Breakfast",
+      prepTime: "15 min",
+      servings: "2",
+      difficulty: "Easy",
+      tags: ["Traditional", "Calcium-Rich", "Gluten-Free", "Tamil"]
+    },
+    {
+      id: 10,
+      title: "Thengai Paal Vegetable Kurma",
+      description: "Nutritious mixed-vegetable kurma made with coconut milk, onions, and aromatic spices. Rich in vitamins and healthy fats.",
+      image: tacoImage,
+      category: "Dinner",
+      prepTime: "30 min",
+      servings: "4",
+      difficulty: "Medium",
+      tags: ["Traditional", "Coconut", "Vitamin-Rich", "Tamil"]
+    },
+    {
+      id: 11,
+      title: "Oats Vegetable Upma (Tamil Style)",
+      description: "A modern yet healthy Tamil-style breakfast with roasted oats, mixed vegetables, and traditional tempering. High in fiber.",
+      image: quinoaBowlImage,
+      category: "Breakfast",
+      prepTime: "20 min",
+      servings: "2",
+      difficulty: "Easy",
+      tags: ["Heart-Healthy", "High-Fiber", "Quick", "Tamil"]
+    },
+    {
+      id: 12,
+      title: "Kollu Rasam (Horse Gram Rasam)",
+      description: "Very healthy rasam made with horse gram, garlic, and pepper. Great for weight loss, immunity boost, and cold relief.",
+      image: smoothieImage,
+      category: "Dinner",
+      prepTime: "25 min",
+      servings: "4",
+      difficulty: "Medium",
+      tags: ["Traditional", "Weight-Loss", "Immunity", "Tamil"]
     }
   ];
 
