@@ -8,6 +8,12 @@ import { useState } from "react";
 import quinoaBowlImage from "@/assets/quinoa-kale-bowl.jpg";
 import tacoImage from "@/assets/sweet-potato-tacos.jpg";
 import smoothieImage from "@/assets/berry-spinach-smoothie.jpg";
+import keeraiMasiyalImage from "@/assets/keerai-masiyal.jpg";
+import kambuKanjiImage from "@/assets/kambu-kanji.jpg";
+import ragiMuddeImage from "@/assets/ragi-mudde.jpg";
+import vegetableKurmaImage from "@/assets/vegetable-kurma.jpg";
+import oatsUpmaImage from "@/assets/oats-upma.jpg";
+import kolluRasamImage from "@/assets/kollu-rasam.jpg";
 
 const Recipes = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -87,7 +93,7 @@ const Recipes = () => {
       id: 7,
       title: "Keerai Masiyal (Spinach Mash)",
       description: "A wholesome iron-rich Tamil dish of mashed spinach with garlic, tempered with mustard and urad dal. Perfect with rice and ghee.",
-      image: quinoaBowlImage,
+      image: keeraiMasiyalImage,
       category: "Lunch",
       prepTime: "20 min",
       servings: "3",
@@ -98,7 +104,7 @@ const Recipes = () => {
       id: 8,
       title: "Kambu Kanji (Pearl Millet Porridge)",
       description: "Traditional high-protein, high-fiber breakfast porridge made with pearl millet flour and buttermilk. Excellent for diabetics.",
-      image: smoothieImage,
+      image: kambuKanjiImage,
       category: "Breakfast",
       prepTime: "15 min",
       servings: "2",
@@ -109,7 +115,7 @@ const Recipes = () => {
       id: 9,
       title: "Ragi Kali / Ragi Mudde",
       description: "A powerhouse of calcium and energy made from finger millet flour. Strengthens bones and great for all ages.",
-      image: quinoaBowlImage,
+      image: ragiMuddeImage,
       category: "Breakfast",
       prepTime: "15 min",
       servings: "2",
@@ -120,7 +126,7 @@ const Recipes = () => {
       id: 10,
       title: "Thengai Paal Vegetable Kurma",
       description: "Nutritious mixed-vegetable kurma made with coconut milk, onions, and aromatic spices. Rich in vitamins and healthy fats.",
-      image: tacoImage,
+      image: vegetableKurmaImage,
       category: "Dinner",
       prepTime: "30 min",
       servings: "4",
@@ -131,7 +137,7 @@ const Recipes = () => {
       id: 11,
       title: "Oats Vegetable Upma (Tamil Style)",
       description: "A modern yet healthy Tamil-style breakfast with roasted oats, mixed vegetables, and traditional tempering. High in fiber.",
-      image: quinoaBowlImage,
+      image: oatsUpmaImage,
       category: "Breakfast",
       prepTime: "20 min",
       servings: "2",
@@ -142,7 +148,7 @@ const Recipes = () => {
       id: 12,
       title: "Kollu Rasam (Horse Gram Rasam)",
       description: "Very healthy rasam made with horse gram, garlic, and pepper. Great for weight loss, immunity boost, and cold relief.",
-      image: smoothieImage,
+      image: kolluRasamImage,
       category: "Dinner",
       prepTime: "25 min",
       servings: "4",
